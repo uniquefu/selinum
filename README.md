@@ -1,2 +1,2 @@
 # selenium
-![image](https://github.com/uniquefu/selinum/master/selenium.png)
+![image](https://github.com/uniquefu/selinum/blob/master/selenium.png)
