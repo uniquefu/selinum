@@ -1,0 +1,10 @@
+email:
+      title: 百度自动化测试报告
+      message: 这是今天的测试报告，请查收
+      receiver:
+              - 164234020@qq.com
+              - uniquefu@126.com
+      server: ('smtp.126.com', '25')
+      sender: uniquefu@126.com
+      password: lg162200100
+      path: ../reports/
