@@ -90,13 +90,3 @@ class Email(object):
                 smtp_server.quit()  # 断开连接
                 # logger.info('发送邮件"{0}"成功! 收件人：{1}。如果没有收到邮件，请检查垃圾箱，'
                             # '同时检查收件人地址是否正确'.format(self.title, self.receiver))
-# t =time.strftime('%Y%m%d%H%M%S', time.localtime())
-# report = [PATH('../reports/Report.xlsx'),PATH('../reports/Report.html')]
-# email = Email(title='CamTalk测试报告--%s' %t,
-#                message='这是今天的测试报告，请查收！',
-#                receiver='164234020@qq.com',
-#                server=('smtp.126.com', '25'),
-#                sender='uniquefu@126.com',
-#                password='lg162200100',
-#                path=report
-#                )
